@@ -1,0 +1,54 @@
+/* Reset */
+/* Seletor Universal */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.head{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.head-logo{
+    display: flex;
+}
+
+.head-tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;    
+}
+
+.info-tittle{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.info-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.info-images-1{
+    padding-right: 20px;
+    border: 1px solid gray;
+    padding: 6px;
+
+}
+
+.info-images-2{
+    padding-left: 20px;
+    border: 1px solid gray;
+    padding: 6px;
+}
