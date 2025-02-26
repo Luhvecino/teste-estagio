@@ -6,6 +6,7 @@
     box-sizing: border-box;
   }
 
+
 .head{
     text-align: center;
     display: flex;
@@ -51,4 +52,16 @@
     padding-left: 20px;
     border: 1px solid gray;
     padding: 6px;
+}
+
+.info-gerais__loja{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.info-gerais__responsavel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
