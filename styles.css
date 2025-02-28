@@ -11,7 +11,7 @@
     text-align: center;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1% 10%;
 }
 
 .head-logo{
@@ -38,7 +38,7 @@
 .info-images{
     display: flex;
     flex-direction: row;
-    justify-content: space-around
+    justify-content: space-between;
 }
 
 .info-images-1{
@@ -54,14 +54,43 @@
     padding: 6px;
 }
 
+.info-gerais{
+    margin-top: 50px;
+    border: 1px solid gray;
+}
 .info-gerais__loja{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around; 
 }
 
 .info-gerais__responsavel{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
+}
+
+.master{
+    margin: 0% 10%;
+}
+
+.ponto-mapa{
+    margin-top: 50px;
+    border: 1px solid gray ;
+}
+
+.rodape{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rodape__produtivo{    
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
 }
