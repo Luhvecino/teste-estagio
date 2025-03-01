@@ -3,7 +3,9 @@
   <head>
     <link  rel="stylesheet" href="styles.css">      
     <link  rel="stylesheet" href="styles_page_1.css">  
-    <link  rel="stylesheet" href="styles_page_2.css"> 
+    <link  rel="stylesheet" href="styles_page_2.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">       
 </head>
 
 <body>
@@ -16,7 +18,7 @@
         <p style="padding: 10%; font-size: 20px;"> RELATÓRIO DE MANUTENÇÃO PREVENTIVA CLIENTE XPTO </p>
       </div>
       
-      <div class="box">
+      <div class="page_1__box">
         <div>
           <p>Cliente: </p>
           <p>DocumentoNo: </p>
@@ -38,12 +40,6 @@
     
 
   </div>
-
-
-
-
-
-
   
    <!-- page two -->
    <div class="page" style="display: flex; flex-direction: column; justify-content: space-around; align-items: center">
@@ -64,7 +60,6 @@
         <img height="250px" width="450px" src="../produtivo/assests/produttivo-logo.webp" alt="logo_produttivo">
       </div>
   </div>
-
 
 
   <!-- page three -->
@@ -124,10 +119,14 @@
   
   <!-- Mapa -->  
   <div class="ponto-mapa">
-    <h2 style="background-color: green; color: white; text-align: center; border: 1px solid gray ;"> Pontos e Mapa </h2>
+    <h2 style="background-color: green; color: white; text-align: center;"> Pontos e Mapa </h2>
     
     <!-- link pro mapa -->
-    <link rel="stylesheet" href="https://www.google.com" alt="Mapa do google">
+    <div id="mapa">
+
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>    
+      <script src="script.js"></script>
+    </div>
   </div>
   
   <hr style="margin-top: 50px; margin-bottom: 10px;">
@@ -143,6 +142,7 @@
   </div>  
 
 </div>
+
 </body>
 
 </html>
